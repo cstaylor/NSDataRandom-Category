@@ -7,15 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSData+NSData_Random.h"
 
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        NSData * random_bytes = [NSData random:4096*1024];
     }
     return 0;
 }
