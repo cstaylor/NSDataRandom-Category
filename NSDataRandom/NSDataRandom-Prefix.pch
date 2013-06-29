@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NSDataRandom' target in the 'NSDataRandom' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
